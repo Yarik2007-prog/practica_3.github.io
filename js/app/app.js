@@ -7,7 +7,7 @@ document.addEventListener('DOMContentLoaded', function(){
     const main = {
         data(){
             return {
-                url:"http://affiliate.yanbasok.com",
+                url:"https://affiliate.yanbasok.com",
                 user:{name: "", phone: "", email: "", date: "", auth: "", type: ""},
                 formData:{ email:"", password:"" },
                 title:"",
@@ -155,3 +155,4 @@ app.use(router);
 app.mount('#content');
 
 });
+
